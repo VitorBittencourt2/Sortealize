@@ -1,0 +1,75 @@
+@media screen and (max-width:375px) {
+    body {
+        width: 50%;
+    }
+    .cabecalho {
+        display: flex;
+        background-color: #F25C05;
+        width: 200%;
+    }
+    .navbar {
+        display: none;
+    }
+    .titulo {
+        margin-left: 25%;
+        margin-top: 5px;
+        font-size: 3rem;
+        font-weight: 400;
+        color: #D0E5F2;
+    }
+    .titulo__principal {
+        width: 100%;
+        margin-left: 50%;
+        margin-top: 20%;
+        font-size: 2.85rem;
+        color: #F25C05;
+    }
+    .paragrafo-quantidade {
+        display: flex;
+        width: 150%;
+        margin-left: 30%;
+        margin-top: 40%;
+        font-size: 1.19rem;
+    }
+    .paragrafo__principal {
+        font-weight: 505;
+    }
+    .quantidade-de-numeros {
+        width: 14%;
+        color: black;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .entre-numeros {
+        display: flex;
+        width: 150%;
+        margin-left: 30%;
+        margin-top: 20%;
+        font-size: 1.5rem;
+        color: #F25C05;
+        justify-content: center;
+    }
+    .primeira-variacao, .segunda-variacao{
+        width: 15%;
+    }
+    .botao {
+        width: 80%;
+        height: 45px;
+        margin-left: 56%;
+        margin-top: 35%;
+        border: solid #F25C05 2px;
+        border-radius: 10px;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .resultado {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 20px;
+        margin-top: 18%;
+        margin-left: 50%;
+        color: green;
+        font-size: 2rem;
+    }  
+}

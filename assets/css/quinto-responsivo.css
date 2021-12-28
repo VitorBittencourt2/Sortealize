@@ -1,0 +1,57 @@
+@media screen and (min-width:1025px) and (max-width:1440px){
+    .titulo__principal {
+        width: 50%;
+        margin-left: 40%;
+        font-size: 6rem;
+        color: #F25C05;
+    }
+    .paragrafo-quantidade {
+        display: flex;
+        width: 50%;
+        margin-left: 35%;
+        margin-top: 4%;
+        font-size: 2.60rem;
+
+    }
+    .quantidade-de-numeros {
+        width: 10%;
+        color: black;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .entre-numeros {
+        display: flex;
+        width: 60%;
+        margin-left: 25%;
+        margin-top: 2%;
+        font-size: 2.60rem;
+        color: #F25C05;
+        justify-content: center;
+    }
+
+    .primeira-variacao, .segunda-variacao{
+        width: 10%;
+    }
+    .botao {
+        width: 20%;
+        height: 45px;
+        margin-left: 45%;
+        margin-top: 4%;
+        border: solid #F25C05 2px;
+        border-radius: 10px;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .resultado {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        height: 20px;
+        margin-top: 4%;
+        margin-left: 15%;
+        color: green;
+        font-size: 2.60rem;
+    }
+}
